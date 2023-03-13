@@ -359,7 +359,7 @@
 <h3 id="18、正则表达式"><a href="#18、正则表达式" class="headerlink" title="18、正则表达式"></a>18、正则表达式</h3><ul>
 <li>//Pattern类 正则表达式的编译表示        </li>
 <li>Pattern pattern = Pattern.compile(“^[a-zA-Z0-9_!#$%&amp;’*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$”);        </li>
-<li>String[] emails = {“<a href="mailto:&#115;&#x68;&#x69;&#x79;&#x61;&#x6e;&#x6c;&#x6f;&#117;&#64;&#115;&#x68;&#105;&#121;&#x61;&#x6e;&#108;&#x6f;&#117;&#46;&#x63;&#111;&#x6d;">&#115;&#x68;&#x69;&#x79;&#x61;&#x6e;&#x6c;&#x6f;&#117;&#64;&#115;&#x68;&#105;&#121;&#x61;&#x6e;&#108;&#x6f;&#117;&#46;&#x63;&#111;&#x6d;</a>“, “shiyanlou”};        </li>
+<li>String[] emails = {“<a href="mailto:&#115;&#x68;&#105;&#121;&#x61;&#110;&#108;&#x6f;&#117;&#64;&#115;&#x68;&#x69;&#x79;&#x61;&#x6e;&#x6c;&#x6f;&#117;&#x2e;&#99;&#x6f;&#109;">&#115;&#x68;&#105;&#121;&#x61;&#110;&#108;&#x6f;&#117;&#64;&#115;&#x68;&#x69;&#x79;&#x61;&#x6e;&#x6c;&#x6f;&#117;&#x2e;&#99;&#x6f;&#109;</a>“, “shiyanlou”};        </li>
 <li>for (String email :                emails) { </li>
 <li>//Matcher 通过解释Pattern对字符序列执行匹配操作的引擎            </li>
 <li>Matcher matcher = pattern.matcher(email);            </li>
